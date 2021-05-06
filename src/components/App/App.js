@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Challenge from "../Challenge/ChallengeSection";
+import Footer from "../Footer/Footer";
 import Main from "../Main/Main";
 import Navbar from "../Navbar/Navbar";
 import "./App.css";
@@ -13,8 +15,9 @@ class App extends React.Component {
         {/* Landing section */}
       <Main/>
         {/* Challenge section */}
-
+      <Challenge/>
         {/* Footer */}
+        <Footer/>
       </div>
     );
   }
