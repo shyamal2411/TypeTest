@@ -11,7 +11,7 @@
 }
 
 .landing-header {
-    font-size: 92px;
+    font-size: 70px;
     letter-spacing: 4px;
     margin: 0;
 }
@@ -36,7 +36,7 @@
     }
 
     .landing-header {
-        margin-top: 32px;
+        margin-top: 20px;
         text-align: center;
     }
 
