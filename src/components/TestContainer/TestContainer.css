@@ -1,0 +1,18 @@
+.test-container{
+    background-color: whitesmoke;
+    margin: 64px 0;
+    width: 80%;
+    /* min-height: 750px; */
+    min-height: 585px;
+    display: flex;
+    margin-left: 10%;
+    flex-direction: column;
+}
+
+.try-again{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
