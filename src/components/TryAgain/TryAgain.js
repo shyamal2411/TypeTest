@@ -1,7 +1,7 @@
 import React from 'react'
 import "./TryAgain.css"
 
-const TryAgain = ( {words, characters, wpm}) => {
+const TryAgain = ( {words, characters, wpm,startAgain}) => {
     return <div className="tryagain-container">
         <h1>Test Results</h1>
 
