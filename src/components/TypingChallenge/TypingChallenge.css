@@ -1,0 +1,74 @@
+.typing-challenge {
+display: flex;
+flex-direction: column;
+flex-grow:1;
+align-content: center;
+justify-content: center;
+}
+
+.timer-container{
+    margin:16px;
+    }
+
+.timer{
+    font-size:35px;
+    font-weight:600;
+    margin:0;
+    text-align: center;
+}
+
+.timer-info{
+    margin:0;
+    margin-top: -5px;
+    color:rgb(187, 37, 37);
+    font-size:30px;
+    font-weight:600;
+    text-align: center;
+}
+
+.textarea-main{
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-grow:1;
+    width: 80%;
+}
+
+.textarea-left{
+    display: flex;
+    width:40%;
+    flex-grow: 1;
+}
+
+.textarea {
+text-align: left;
+flex-grow: 1;
+height: 400px;
+width:200%;
+padding:10px;
+line-height: 10px;
+flex-wrap: wrap;
+overflow: scroll;
+}
+.textarea:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.textarea {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.test-paragraph {
+    font-size: 12px;
+    background: #e9e7e4;
+    padding: 12px;
+    /* display: flex;
+    flex-direction: row; */
+}
