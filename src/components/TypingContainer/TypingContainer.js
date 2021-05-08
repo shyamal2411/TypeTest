@@ -6,7 +6,8 @@ import "./TypingContainer.css";
 const TypingContainer = ({
        words,
     characters,
-    wpm
+    wpm,
+    selectedParagraph
 }) => {
     return (
         <div className="typing-challenge-container">
@@ -25,7 +26,7 @@ const TypingContainer = ({
             </div>
 
             <div className="typewriter-container">
-               <TypingChallenge selectedParagraph="Hey there"/>
+               <TypingChallenge selectedParagraph= {selectedParagraph}/>
                 {/* <TypingChallenge
                     testInfo={testInfo}
                     selectedParagraph={selectedParagraph}
