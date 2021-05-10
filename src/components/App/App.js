@@ -1,16 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Challenge from "../Challenge/ChallengeSection";
+import ChallengeSection from "../ChallengeSection/ChallengeSection";
 import Footer from "../Footer/Footer";
 import Main from "../Main/Main";
 import Navbar from "../Navbar/Navbar";
 import "./App.css";
 
-const TotalTime = 60;
+const TotalTime = 2;
 
 class App extends React.Component {
   state = {
-    selectedParagraph: "hey SG!",
+    selectedParagraph: "Anyone listening?",
     timerStarted: false,
     timeRemaining: TotalTime,
     words: 0,
@@ -25,7 +25,7 @@ class App extends React.Component {
         {/* Landing section */}
         <Main />
         {/* Challenge section */}
-        <Challenge
+        <ChallengeSection
           selectedParagraph={this.state.selectedParagraph}
           words={this.state.words}
           characters={this.state.characters}

@@ -1,20 +1,43 @@
 import React from "react";
 import TryAgain from "../TryAgain/TryAgain";
-import TypingChallengeContainer from "../TypingContainer/TypingContainer";
+import TypingContainer from "../TypingContainer/TypingContainer";
 import "./TestContainer.css";
-const TestContainer = ({ words, characters, wpm }) => {
+
+const TestContainer = ({
+  selectedParagraph,
+  testInfo,
+  onInputChange,
+  words,
+  characters,
+  wpm,
+  timeRemaining,
+  timerStarted,
+  startAgain
+}) => {
   return (
     <div className="test-container">
-      <div className="typing-challenge-container" data-aos="fade-up">
-        <TypingChallengeContainer
-          words={words}
-          characters={characters}
-          wpm={wpm}
-        />
-      </div>
-      {/* <div className="try-again">
-        <TryAgain words={words} characters={characters} wpm={wpm} />
-    </div> */}
+      {/* Show the try again or start screen */}
+      {timeRemaining > 0 ? (
+        <div data-aos="fade-up" className="typing-challenge-cont">
+          <TypingContainer
+            selectedParagraph={selectedParagraph}
+            words={words}
+            characters={characters}
+            wpm={wpm}
+            timeRemaining={timeRemaining}
+            timerStarted={timerStarted}
+          />
+        </div>
+      ) : (
+        <div className="try-again-cont">
+          <TryAgain
+            words={words}
+            characters={characters}
+            wpm={wpm}
+            startAgain={startAgain}
+          />
+        </div>
+      )}
     </div>
   );
 };
