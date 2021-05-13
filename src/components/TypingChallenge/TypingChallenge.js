@@ -21,7 +21,7 @@ const TypingChallenge = ({
       <div className="textarea-main">
         <div className="textarea-left">
           <div className="textarea test-paragraph">
-            {/* {selectedParagraph} */}
+            {selectedParagraph}
           </div>
         </div>
 

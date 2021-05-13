@@ -10,7 +10,7 @@ const TotalTime = 2;
 
 class App extends React.Component {
   state = {
-    selectedParagraph: "Anyone listening?",
+    selectedParagraph: "And there we gooooooooooo?",
     timerStarted: false,
     timeRemaining: TotalTime,
     words: 0,
