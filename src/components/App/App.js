@@ -7,7 +7,7 @@ import Navbar from "../Navbar/Navbar";
 import "./App.css";
 
 const TotalTime = 60;
-
+const ServiceURL="https://baconipsum.com/api/?type=all-meat&paras=3&start-with-lorem=1&format=text"
 class App extends React.Component {
   state = {
     selectedParagraph: "And there we gooooooooooo?",
@@ -18,6 +18,13 @@ class App extends React.Component {
     wpm: 0
   };
   render() {
+
+      //JUST TO CHECK THAT API CALLS ARE WORKING, AND THEY'RE
+      // fetch(ServiceURL).then(response=>response.text())
+      // .then((information) =>{
+      //   console.log("API RESPONSE!!!", information);
+      // });
+
     return (
       <div className="app">
         {/* Nav section */}
