@@ -26,6 +26,7 @@ const TestContainer = ({
             wpm={wpm}
             timeRemaining={timeRemaining}
             timerStarted={timerStarted}
+            testInfo={testInfo}
           />
         </div>
       ) : (
