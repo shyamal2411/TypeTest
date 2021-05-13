@@ -6,7 +6,7 @@ import Main from "../Main/Main";
 import Navbar from "../Navbar/Navbar";
 import "./App.css";
 
-const TotalTime = 2;
+const TotalTime = 60;
 
 class App extends React.Component {
   state = {

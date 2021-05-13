@@ -15,8 +15,12 @@ const TypingChallenge = ({
   return (
     <div className="typing-challenge">
       <div className="timer-container">
-        <p className="timer">00:{timeRemaining}</p>
-        <p className="timer-info">START TYPING</p>
+        <p className="timer">00:
+        {timeRemaining >=10 ?timeRemaining : `0${timeRemaining}`}
+        </p>
+        <p className="timer-info">
+        {!timerStarted && "START TYPING"}
+        </p>
       </div>
       <div className="textarea-main">
         <div className="textarea-left">
