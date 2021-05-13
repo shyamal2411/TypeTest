@@ -15,6 +15,7 @@ const ChallengeSection = ({
         Take a speed test Now!
       </h1>
       <TestContainer
+        selectedParagraph={selectedParagraph}
         timeRemaining={timeRemaining}
         words={words}
         characters={characters}
