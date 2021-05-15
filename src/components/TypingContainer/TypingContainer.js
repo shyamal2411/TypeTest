@@ -4,14 +4,15 @@ import TypingChallenge from "../TypingChallenge/TypingChallenge";
 import "./TypingContainer.css";
 
 const TypingContainer = ({
+  testInfo,
   words,
   characters,
   wpm,
   selectedParagraph,
   timeRemaining,
   timerStarted,
-  testInfo
 }) => {
+  // console.log(testInfo);
   return (
     <div className="typing-challenge-container">
       <div className="details-container">
@@ -28,10 +29,11 @@ const TypingContainer = ({
       <div className="typewriter-container">
         {/* <TypingChallenge selectedParagraph={selectedParagraph} /> */}
         <TypingChallenge
+          testInfo={testInfo}
           selectedParagraph={selectedParagraph}
           timeRemaining={timeRemaining}
           timerStarted={timerStarted}
-          testInfo={testInfo}
+          
         />
        
       </div>

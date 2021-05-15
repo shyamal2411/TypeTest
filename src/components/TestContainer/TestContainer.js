@@ -20,13 +20,13 @@ const TestContainer = ({
       {timeRemaining > 0 ? (
         <div data-aos="fade-up" className="typing-challenge-cont">
           <TypingContainer
+            testInfo={testInfo}
             selectedParagraph={selectedParagraph}
             words={words}
             characters={characters}
             wpm={wpm}
             timeRemaining={timeRemaining}
             timerStarted={timerStarted}
-            testInfo={testInfo}
           />
         </div>
       ) : (
