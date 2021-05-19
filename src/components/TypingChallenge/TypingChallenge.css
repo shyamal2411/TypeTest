@@ -2,16 +2,18 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  align-content: center;
+  align-items: center;
   justify-content: center;
+  margin-bottom: 35px;
 }
 
 .timer-container {
   margin: 16px;
+  /* margin-bottom: 0; */
 }
 
 .timer {
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 600;
   margin: 0;
   text-align: center;
@@ -19,23 +21,19 @@
 
 .timer-info {
   margin: 0;
-  margin-top: -5px;
-  color: rgb(187, 37, 37);
-  font-size: 30px;
-  font-weight: 600;
+  margin-top: -10px;
+  color: #dd5044;
+  font-size: 28px;
   text-align: center;
+  font-weight: 800;
 }
 
-.textarea-main {
-  margin: 127px;
-  margin-top: 15px;
-  margin-bottom: 50px;
+.textarea-container {
+  margin: 16px;
   display: flex;
   flex-direction: row;
   flex-grow: 1;
   width: 80%;
-  align-content: center;
-  justify-content: center;
 }
 
 .textarea-left,
@@ -51,8 +49,7 @@
   height: 400px;
   width: 100%;
   padding: 10px;
-  font-size: 20px;
-  line-height: 30px;
+  line-height: 18px;
   flex-wrap: wrap;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -69,13 +66,15 @@
 
 .textarea {
   -ms-overflow-style: none;
+  /* IE and Edge */
   scrollbar-width: none;
+  /* Firefox */
 }
 
 .test-paragraph {
-  font-size: 20px;
+  font-size: 12px;
   background: #e9e7e4;
-  padding: 11px;
+  padding: 12px;
   /* display: flex;
-      flex-direction: row; */
+    flex-direction: row; */
 }

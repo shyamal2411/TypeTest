@@ -16,7 +16,7 @@ const TypingChallenge = ({
           {timeRemaining >= 10 ? timeRemaining : `0${timeRemaining}`}
         </p>
         <p className="timer-info">
-          {!timerStarted && "Start typing to start the test"}
+          {!timerStarted && "START TYPING!"}
         </p>
       </div>
 
