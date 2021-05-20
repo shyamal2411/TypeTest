@@ -11,7 +11,11 @@ class Navbar extends Component {
           className="img-logo" 
           src={logo} 
           alt="logo" />
-          <p className="flash-logo-text">Type-test</p>
+          <a 
+            className="flash-logo-text"
+            href="https://shyamal2411.github.io/TypeTest/"
+            rel="roreferrer"
+            >Type-Test</a>
         </div>
         <div className="nav-right">
             <a 
