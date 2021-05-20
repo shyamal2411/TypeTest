@@ -1,8 +1,8 @@
 .nav-container {
     display: flex;
-    height: 72px;
+    height: 60px;
     align-items: center;
-    background: #0a3131;
+    background: #155152;
     margin: 0;
     justify-content: space-between;
     z-index: 99;
@@ -19,9 +19,13 @@
 
 .nav-sg-link {
     font-size: 25px;
-    color: #eeeeee;
+    color: #F33809;
     font-weight: 800;
     text-decoration: none;
+}
+
+.nav-sg-link:hover{
+    color: #ffffff;
 }
 
 .img-logo {
@@ -34,6 +38,10 @@
     font-size: 40px;
     letter-spacing: 1px;
     margin: 0 10px;
-    color: #eeeeee;
+    color: #F33809;
     text-decoration: none;
+}
+
+.flash-logo-text:hover {
+    color: #ffffff;
 }

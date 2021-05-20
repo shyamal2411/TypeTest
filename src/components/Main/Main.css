@@ -3,7 +3,7 @@
     min-height: 90vh;
     justify-content: space-between;
     align-items: center;
-    color: #eee2ee;
+    color: #000000;
     padding: 0 32px;
     font-family: "Bangers", cursive;
     margin: 0;
@@ -36,11 +36,13 @@
     }
 
     .landing-header {
-        margin-top: 20px;
+        margin-top: 15px;
         text-align: center;
+        font-size: 45px;
     }
 
     .typewriter-container {
         text-align: center;
+        font-size:45px;
     }
 }

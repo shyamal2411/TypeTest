@@ -7,5 +7,5 @@ body{
 .app{
   display: flex;
   flex-direction: column;
-  background-color: #13323a;
+  background-color: #dad5d5;
 }
