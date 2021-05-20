@@ -45,3 +45,13 @@
 .flash-logo-text:hover {
     color: #ffffff;
 }
+
+@media (max-width: 800px) {
+    .nav-container {
+        font-size: 20px;
+    }
+    .flash-logo-text{
+        font-size: 20px;
+    }
+    
+}
