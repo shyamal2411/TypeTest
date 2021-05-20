@@ -2,7 +2,7 @@
   "name": "typetest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shyamal2411.github.io/Type-Test2/",
+  "homepage": "https://shyamal2411.github.io/TypeTest/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
