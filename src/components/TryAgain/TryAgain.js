@@ -2,7 +2,7 @@ import React from "react";
 import "./TryAgain.css";
 
 const TryAgain = ({ words, characters, wpm, startAgain }) => {
-  const url = "www.sgprajapati.com";
+  const url = "https://shyamal2411.github.io/TypeTest/";
   return (
     <div data-aos="fade-up" className="try-again-container">
       <h1>Test Results</h1>
@@ -41,15 +41,15 @@ const TryAgain = ({ words, characters, wpm, startAgain }) => {
         <button
           onClick={() =>
             window.open(
-              "https://twitter.com/intent/tweet?text=Check%20this%20out%20" +
+              "https://www.linkedin.com/cws/share?url=" +
                 url,
-              "Twitter",
+              "LinkedIn",
               "width=800,height=600"
             )
           }
           className="end-buttons tweet-btn"
         >
-          Tweet
+          LinkedIn
         </button>
       </div>
     </div>
