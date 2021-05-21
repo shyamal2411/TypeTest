@@ -76,6 +76,7 @@
   font-size: 12px;
   background: #0000;
   padding: 12px;
+  text-decoration: none;
   /* display: flex;
     flex-direction: row; */
 }

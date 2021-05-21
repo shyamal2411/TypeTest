@@ -11,6 +11,7 @@ const Main = () => {
                 <h1 className="landing-header">Can you type...</h1>
                 <div className="typewriter-container">
                  <Typical
+                 className="typewriter-color"
                   steps={['Correct?', 1000, 'Fast!', 1000, 'Quick?', 1000]}
                   loop={Infinity}
                   wrapper="p"

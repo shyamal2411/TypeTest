@@ -21,6 +21,10 @@
     letter-spacing: 4px;
 }
 
+.typewriter-color{
+    color: #F33809;
+}
+
 .flash-image {
     width: 40vw;
 }
