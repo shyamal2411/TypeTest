@@ -20,9 +20,9 @@ class Navbar extends Component {
         <div className="nav-right">
             <a 
             target="_blank"
+            rel="noreferrer"
             className="nav-sg-link"
             href="https://github.com/shyamal2411/"
-            rel="roreferrer"
             >SG Prajapati</a>
         </div>
       </div>
