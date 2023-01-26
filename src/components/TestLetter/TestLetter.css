@@ -1,11 +1,11 @@
 .test-letter {
-  /* font-weight: 800; */
   font-size: 20px;
   line-height: 20px;
   /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-font-family: 'Roboto Mono',monospace;
-font-weight: 600;
-letter-spacing: -22px;
+  font-family: 'Roboto Mono',monospace;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 15px;
 }
 
 .test-letter-not-attempted {
